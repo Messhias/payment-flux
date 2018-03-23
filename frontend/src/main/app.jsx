@@ -5,6 +5,7 @@ import '../common/template/dependencies';
 import Header from '../common/template/header';
 import Sidebar from '../common/template/sideBar';
 import Footer from '../common/template/footer';
+import Messages from '../common/msg/messages';
 
 import Routes from './routes';
 
@@ -16,5 +17,6 @@ export default props => (
             <Routes />
         </div>
         <Footer />
+        <Messages />
     </div>
 );
